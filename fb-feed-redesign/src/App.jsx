@@ -1,6 +1,6 @@
 import React from 'react'
 import {Grid,makeStyles} from '@material-ui/core'
-import Add from './components/Add'
+
 import Feed from './components/Feed'
 import Leftbar from './components/Leftbar'
 import Rightbar from './components/Rightbar'
@@ -30,7 +30,7 @@ const App = () => {
               <Rightbar/>
           </Grid>
       </Grid>
-      <Add/>
+   
     </div>
   )
 }
